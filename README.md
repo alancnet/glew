@@ -78,6 +78,8 @@ FreeBSD: `# pkg install xorg lang/gcc git cmake gmake bash python perl5`
 
 ##### Build
 
+_Note: you may need to call `make` in the  **auto** folder first_
+
 	$ make
 	$ sudo make install
 	$ make clean
@@ -85,8 +87,6 @@ FreeBSD: `# pkg install xorg lang/gcc git cmake gmake bash python perl5`
 Targets:    `all, glew.lib (sub-targets: glew.lib.shared, glew.lib.static), glew.bin, clean, install, uninstall`
 
 Variables:  `SYSTEM=linux-clang, GLEW_DEST=/usr/local, STRIP=`
-
-_Note: you may need to call `make` in the  **auto** folder first_
 
 ##### Linux EGL
 
